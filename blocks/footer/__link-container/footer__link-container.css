@@ -1,0 +1,4 @@
+.footer__link-container {
+  display: flex;
+  align-items: flex-end;
+}
