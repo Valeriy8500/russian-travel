@@ -1,30 +1,37 @@
-
-
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
+/* html, body {
   background: #2A2C2F;
-  font-family: '', Arial, sans-serif;
+} */
+
+div, svg, section, h1, h2, p, ul, a, img, header {
+  border: 1px solid blue;
 }
 
-.page__content {
-  max-width: 1184px;
-  min-width: 320px;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: #2A2C2F;
+  color: #FFFFFF;
+  max-width: 1280px;
   margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  width: 100%;
 }
 
 /* header */
 
 .header {
-  padding: 28px 0px 0px;
+  margin: 0 auto;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  width: 100%;
+  width: 92%;
 }
 
 .header__links {
@@ -49,31 +56,34 @@
 /* lead  */
 
 .lead {
-  width: 100%;
-  padding: 0px 48px;
+  max-width: 984px;
   box-sizing: border-box;
   margin: 56px auto 92px;
 }
 
 .lead__title {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 0;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
+  max-width: 720px;
+  width: 100%;
 }
 
 .lead__subtitle {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 64px;
+  margin: 0 auto 64px;
+  max-width: 640px;
 }
 
 .lead__image {
@@ -86,10 +96,11 @@
 }
 
 .lead__caption {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -103,11 +114,16 @@
 
 .intro {
   color: #FFFFFF;
-  margin: 0 100px 92px 100px;
+  margin: auto;
+  margin-left: 11.5%;
+  margin-bottom: 92px;
   max-width: 690px;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro__title{
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -116,14 +132,17 @@
 }
 
 .intro__text {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .intro__list {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -131,6 +150,7 @@
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* photo-grid */
@@ -140,7 +160,8 @@
   grid-gap: 16px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
+  max-width: 1184px;
 }
 
 .photo-grid__item {
@@ -170,6 +191,7 @@
 }
 
 .place__title {
+  font-family: 'Inter', Arial, sans-serif;
   width: 47%;
   font-style: normal;
   font-weight: 900;
@@ -189,6 +211,7 @@
 }
 
 .place__url-heading {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -200,6 +223,7 @@
 }
 
 .place__link {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -222,6 +246,7 @@
 }
 
 .place__first-paragraph {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -231,6 +256,7 @@
 }
 
 .place__second-paragraph {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -250,7 +276,8 @@
 
 .cover {
   width: 100%;
-  margin-bottom: 92px;
+  max-width: 1185px;
+  margin: 0 auto 92px;
 }
 
 .cover__link {
@@ -294,6 +321,7 @@
   }
 
   .cover__title {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -302,6 +330,7 @@
   }
 
   .cover__subtitle {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -315,8 +344,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  margin: 0 auto;
   color: #ffffff;
+  max-width: 1184px;
 }
 
 .footer__link-container {
@@ -325,6 +356,7 @@
 }
 
 .footer__link {
+  font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
   margin-right: 18px;
   text-decoration: none;
@@ -344,6 +376,7 @@
 }
 
 .footer__copyright {
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
