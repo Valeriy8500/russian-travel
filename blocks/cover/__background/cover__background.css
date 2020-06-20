@@ -23,4 +23,5 @@
 
 .cover__background:hover::before {
   opacity: 0.8;
+  cursor: url(../../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
 }
