@@ -27,23 +27,23 @@
     .place{
         margin-bottom: 72px;
         grid-template-columns: auto auto;
-        grid-column-gap: 24px;
+        grid-column-gap: 28px;
         align-self: center;
-
   }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 720px) {
     .place{
-        margin-bottom: 48px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 48px;
   }
-}
 
-@media (max-width: 699px) {
-    .place:last-child{
+  .place:last-child{
         margin-bottom: 0;
   }
 }
+

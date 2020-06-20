@@ -14,3 +14,9 @@
         max-width: 352px ;
   }
 }
+
+@media (max-width: 720px) {
+    .website {
+        display: none;
+    }
+}

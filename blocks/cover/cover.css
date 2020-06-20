@@ -6,32 +6,34 @@
 
 .cover {
   width: 100%;
+  height: 100%;
   max-width: 1185px;
   margin: 0 auto 92px;
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {
     .cover {
-        max-width: 1024px;
-        margin-left: 0;
         margin-right: 0;
+        margin-left: 0;
+        max-width: 1024px;
+        
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .cover {
         max-width: 768px;
-        margin-left: 0;
-        margin-right: 0;
         margin-bottom: 88px;
     }
-}
+  }
 
-@media (max-width: 320px) {
+  @media (max-width: 320px) {
     .cover {
         max-width: 320px;
-        margin-left: 0;
-        margin-right: 0;
         margin-bottom: 64px;
     }
-}
+  }
+
+
+

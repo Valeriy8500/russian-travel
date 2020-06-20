@@ -7,9 +7,21 @@
     text-align: center;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 767px) {
     .cover__subtitle {
-      font-size: 14px;
-      line-height: 16px;
+        font-size: 14px;
+        line-height: 16px;
     }
-  }
+}
+
+@media (max-width: 375px) {
+    .cover__subtitle {
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        margin: auto;
+    }
+}

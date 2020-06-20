@@ -1,5 +1,6 @@
 .cover__link {
   text-decoration: none;
   color: #ffffff;
-  width: 100%;
+  display: flex;
+  position: relative;
 }
