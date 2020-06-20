@@ -1,0 +1,14 @@
+.website__url {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffff;
+    transition: opacity 0.3s linear;
+}
+
+.website__url:hover {
+    cursor: url(../../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
+    opacity: 0.7;
+}

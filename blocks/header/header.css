@@ -3,10 +3,25 @@
 @import url('./__logo/__logo.css');
 
 .header {
-  margin: 0 auto;
-  padding-top: 28px;
+  margin: 0 48px;
+  margin-top: 28px;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
   width: 92%;
 }
+
+@media (max-width: 767px) {
+    .header {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        margin: 0 16px;
+        padding-top: 16px;
+
+    }
+}
+

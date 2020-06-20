@@ -1,0 +1,22 @@
+@import url("./__paragraph/place__container-paragraph.css");
+
+.place__container-paragraph {
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .place__container-paragraph{
+        max-width: 352px ;
+  }
+}
+
+@media (max-width: 768px) {
+    .place__container-paragraph{
+        max-width: 456px;
+  }
+}
+

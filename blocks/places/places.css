@@ -1,6 +1,33 @@
+@import url('./place/place.css');
+
 .places {
-  width: 100%;
-  max-width: 984px;
-  margin: 0 auto 92px;
-  color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 92px;
+    max-width: 984px;
+
+}
+
+
+@media (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        margin: 0 48px 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        margin: 0 24px 88px 24px;
+  }
+}
+
+@media (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        margin: 0 0 64px 0;
+  }
 }

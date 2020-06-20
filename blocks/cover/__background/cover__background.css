@@ -25,3 +25,21 @@
   opacity: 0.8;
   cursor: url(../../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
 }
+
+@media (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__background {
+      min-height: 640px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__background {
+      min-height: 640px;
+  }
+}

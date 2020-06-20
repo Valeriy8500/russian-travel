@@ -1,0 +1,16 @@
+@import url('./__url-heading/website__url-heading.css');
+@import url('./__url/website__url.css');
+
+
+.website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .website{
+        max-width: 352px ;
+  }
+}
