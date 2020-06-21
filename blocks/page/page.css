@@ -1,10 +1,10 @@
-html, body {
+/* html, body {
   width: 100%;
-}
+} */
 
-div, svg, section, h1, h2, p, ul, a, img, header, body {
+/* div, svg, section, h1, h2, p, ul, a, img, header, body {
   border: 1px solid blue;
-}
+} */
 
 .page {
   font-family: 'Inter', Arial, sans-serif;
