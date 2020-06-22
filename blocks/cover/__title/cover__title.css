@@ -7,9 +7,13 @@
     text-align: center;
   }
 
-@media (max-width: 767px) {
+    @media (max-width: 600px) {
     .cover__title {
-      font-size: 32px;
-      line-height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+
     }
   }
+
+  

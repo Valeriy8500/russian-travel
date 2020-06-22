@@ -6,32 +6,56 @@
 
 .cover {
   width: 100%;
-  height: 100%;
   max-width: 1185px;
-  margin: 0 auto 92px;
-  object-fit: cover;
+  height: 740px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 92px;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
     .cover {
-        margin-right: 0;
         margin-left: 0;
+        margin-right: 0;
         max-width: 1024px;
-        
+        max-height: 640px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
         max-width: 768px;
+        max-height: 480px;
         margin-bottom: 88px;
+
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cover {
+        max-width: 600px;
+        max-height: 375px;
+        margin-bottom: 80px;
+
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cover {
+        max-width: 480px;
+        max-height: 300px;
+        margin-bottom: 64px;
+
     }
   }
 
   @media (max-width: 320px) {
     .cover {
         max-width: 320px;
+        max-height: 200px;
         margin-bottom: 64px;
+
     }
   }
 
