@@ -15,9 +15,8 @@
 }
 
 .footer__link:hover {
-  cursor: url(../../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
+  cursor: url(../../../images/new-pointer.svg), pointer;
   opacity: 0.8;
-  box-shadow: 0px 0px 15px rgb(114, 116, 116);
 }
 
 @media (max-width: 720px) {
@@ -27,18 +26,9 @@
       margin-right: 0;
       margin-bottom: 32px;
   }
-}
 
-@media (max-width: 320px) {
-    .footer__link {
-      font-size: 24px;
-      line-height: 24px;
-      margin-right: 0;
-      margin-bottom: 32px;
-  }
-
-    .footer__link:last-child {
+  .footer__link:last-child {
       margin-bottom: 48px;
   }
-
 }
+

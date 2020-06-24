@@ -1,6 +1,37 @@
 .cover__link {
   text-decoration: none;
   color: #ffffff;
-  width: 100%;
+  background-image: url(../../../images/__background.jpg);
   height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  opacity: 0.8;
+  transition: 0.3s 0s opacity ease-in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: 0.3s opacity linear;
+  -webkit-transition: 0.3s opacity linear;
+    -moz-transition: 0.3s opacity linear;
+    -ms-transition: 0.3s opacity linear;
+    -o-transition: 0.3s opacity linear;
+  z-index: -1;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+  cursor: url(../../../images/Imported\ Layers\ Copy\ 4.svg), pointer;
 }

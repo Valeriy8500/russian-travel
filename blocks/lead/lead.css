@@ -5,8 +5,9 @@
 
 .lead {
   max-width: 984px;
-  box-sizing: border-box;
   margin: 56px auto 98px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1024px) {
@@ -26,6 +27,6 @@
 @media (max-width: 320px) {
     .lead {
         max-width: 320px;
-        margin: 48px auto 64px;
+        margin: 48px 2px 64px 2px;
     }
 }

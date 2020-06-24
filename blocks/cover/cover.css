@@ -1,6 +1,4 @@
-@import url('./__background/cover__background.css');
 @import url('./__link/cover__link.css');
-@import url('./__overlay/cover__overlay..css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__title/cover__title.css');
 
@@ -28,7 +26,6 @@
         max-width: 768px;
         max-height: 480px;
         margin-bottom: 88px;
-
     }
   }
 
@@ -37,7 +34,6 @@
         max-width: 600px;
         max-height: 375px;
         margin-bottom: 80px;
-
     }
   }
 
@@ -46,7 +42,6 @@
         max-width: 480px;
         max-height: 300px;
         margin-bottom: 64px;
-
     }
   }
 
@@ -55,7 +50,6 @@
         max-width: 320px;
         max-height: 200px;
         margin-bottom: 64px;
-
     }
   }
 

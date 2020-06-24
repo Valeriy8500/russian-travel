@@ -1,6 +1,11 @@
 @import url('./__image/place__image.css');
 @import url('./__container-paragraph/place__container-paragraph.css');
+@import url('./__paragraph/place__paragraph.css');
 @import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+@import url('./__url/place__url.css');
+@import url('./__url-heading/place__url-heading.css');
+
 
 .place {
     max-width: 984px;
@@ -32,18 +37,15 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     .place{
         display: flex;
         flex-direction: column;
+        align-items: center;
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
         margin-bottom: 48px;
-  }
-
-  .place:last-child{
-        margin-bottom: 0;
   }
 }
 

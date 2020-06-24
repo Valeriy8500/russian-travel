@@ -1,5 +1,3 @@
-@import url("./__paragraph/place__container-paragraph.css");
-
 .place__container-paragraph {
     display: flex;
     flex-direction: column;
@@ -10,13 +8,21 @@
 
 @media (max-width: 1024px) {
     .place__container-paragraph{
-        max-width: 352px ;
+        max-width: 456px;
   }
 }
 
 @media (max-width: 768px) {
     .place__container-paragraph{
-        max-width: 456px;
+        max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+    .place__container-paragraph{
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
   }
 }
 

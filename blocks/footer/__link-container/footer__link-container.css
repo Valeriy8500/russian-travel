@@ -7,9 +7,3 @@
       flex-direction: column;
   }
 }
-
-@media (max-width: 320px) {
-    .footer__link-container {
-      flex-direction: column;
-  }
-}

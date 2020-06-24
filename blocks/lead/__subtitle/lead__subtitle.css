@@ -7,12 +7,11 @@
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto 64px;
-  max-width: 640px;
 }
 
 @media (max-width: 1024px) {
     .lead__subtitle {
-        margin-bottom: 56px;
+        margin-bottom: 58px;
     }
 }
 
@@ -27,7 +26,5 @@
 @media (max-width: 320px) {
     .lead__subtitle {
         margin-bottom: 40px;
-        font-size: 16px;
-        line-height: 20px;
     }
 }

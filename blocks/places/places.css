@@ -1,18 +1,15 @@
-@import url('./place/place.css');
-
 .places {
     display: flex;
     flex-direction: column;
     margin: 0 auto 92px;
     max-width: 984px;
-
 }
-
 
 @media (max-width: 1024px) {
     .places {
         max-width: 928px;
-        margin: 0 48px 92px 48px;
+        margin-left: 48px;
+        margin-right: 48px;
   }
 }
 
@@ -23,10 +20,16 @@
   }
 }
 
+@media (max-width: 600px) {
+    .places {
+        max-width: 600px;
+        margin: 0 0 64px 0;
+  }
+}
+
 @media (max-width: 320px) {
     .places {
         max-width: 320px;
-        margin: 0 0 64px 0;
   }
 }
 

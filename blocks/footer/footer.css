@@ -3,7 +3,6 @@
 @import url('./__link/footer__link.css');
 
 .footer {
-
   display: flex;
   justify-content: space-between;
   margin: 0 48px 24px 48px;
@@ -17,7 +16,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .footer {
       max-width: 720px;
       margin-left: 24px;
@@ -29,16 +28,7 @@
     .footer {
       max-width: 186px;
       margin-left: 16px;
-      margin-right: 118px;
-      flex-direction: column;
-  }
-}
-
-@media (max-width: 320px) {
-    .footer {
-      max-width: 186px;
-      margin-left: 16px;
-      margin-right: 118px;
+      margin-right: 16px;
       flex-direction: column;
   }
 }
