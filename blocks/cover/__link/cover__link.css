@@ -37,7 +37,7 @@
   cursor: url(../../../images/new-pointer.svg), pointer;
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
     .cover__link {
       min-height: 640px;
     }
