@@ -1,0 +1,18 @@
+.comments__container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+        margin: 0 139px 0 139px;
+  }
+}
+
+@media (max-width: 600px) {
+    .comments__container {
+        margin-left: 0;
+        margin-right: 0;
+        
+  }
+}

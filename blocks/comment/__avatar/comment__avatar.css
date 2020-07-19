@@ -1,0 +1,12 @@
+.comment__avatar {
+  border-radius: 100px;
+  margin-bottom: 42px;
+  width: 98px;
+  height: 98px;
+}
+
+@media (max-width: 768px) {
+    .comment__avatar {
+        margin-bottom: 16px;
+  }
+}

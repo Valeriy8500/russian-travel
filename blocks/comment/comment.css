@@ -1,0 +1,26 @@
+@import url('./__avatar/comment__avatar.css');
+@import url('./__quote.css/comment__quote.css');
+@import url('./__author.css/comment__author.css');
+
+.comment {
+  max-width: 382px;
+  margin-right: 19px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment:nth-child(3) {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .comment {
+        margin-right: 0;
+        margin-bottom: 47px;
+        align-items: center;
+  }
+
+    .comment:last-of-type {
+        margin-bottom: 0;
+    }
+}

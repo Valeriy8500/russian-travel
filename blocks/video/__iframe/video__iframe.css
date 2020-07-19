@@ -1,0 +1,36 @@
+.video__iframe {
+  width: 583px;
+  height: 323px;
+  border: 0;
+  margin-right: 18px;
+}
+
+.video__iframe:nth-child(2) {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .video__iframe {
+        width: 352px;
+        height: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+    .video__iframe {
+        margin-right: 0;
+  }
+
+    .video__iframe:nth-child(1) {
+      margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+    .video__iframe {
+        width: 268px;
+        height: 192px;
+  }
+}
+
+
