@@ -1,7 +1,7 @@
 .cover__link {
   text-decoration: none;
   color: #ffffff;
-  background-image: url(../../../images/__background.jpg);
+  background-image: url(../../../images/cover__background.jpg);
   height: 100%;
   width: 100%;
   min-height: 740px;
@@ -34,7 +34,7 @@
 
 .cover__link:hover::before {
   opacity: 0.8;
-  cursor: url(../../../images/new-pointer.svg), pointer;
+  cursor: url(../../../images/new_pointer.svg), pointer;
 }
 
 @media (max-width: 1024px) {
