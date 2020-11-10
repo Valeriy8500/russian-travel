@@ -12,4 +12,4 @@
 4. Применение методологии БЭМ
 5. Работа с системой контроля версий Git
 
-**Ссылка на проект** [https://github.com/Valeriy8500/russian-travel.git]
+**Ссылка на проект** [https://valeriy8500.github.io/russian-travel/]
